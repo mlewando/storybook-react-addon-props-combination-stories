@@ -4,7 +4,9 @@
   "description": "Props Combinations addon for React Storybook that will generate stories for each props combinations",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "rollup --config",
+    "test": "jest",
+    "format": "prettier ./src/**/*.ts --write"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,37 @@
   "bugs": {
     "url": "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
   },
-  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme"
+  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/lodash": "^4.14.92",
+    "@types/lodash-es": "^4.17.0",
+    "@types/ramda": "^0.25.14",
+    "jest": "^22.0.4",
+    "lodash-es": "^4.17.4",
+    "prettier": "^1.9.2",
+    "rollup": "^0.53.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.9.0",
+    "ts-jest": "^22.0.1",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.6.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {}
 }
