@@ -1,0 +1,27 @@
+{
+  "name": "storybook-react-addon-props-combination-stories",
+  "version": "0.1.0",
+  "description": "Props Combinations addon for React Storybook that will generate stories for each props combinations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "react-storybook",
+    "addon",
+    "plugin",
+    "props-combinations"
+  ],
+  "author": "Mateusz Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+  },
+  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme"
+}
