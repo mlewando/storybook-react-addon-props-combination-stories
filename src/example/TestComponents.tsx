@@ -1,3 +1,12 @@
 import * as React from "react";
 
-export const TestComponent = () => <div>some test component</div>;
+export interface TestComponentProps {
+  name: string;
+  count: number;
+}
+
+export const TestComponent = ({ name, count }: TestComponentProps) => (
+  <div>
+    Hey {name}, you passed {count} as a number
+  </div>
+);
