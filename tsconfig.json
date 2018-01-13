@@ -15,7 +15,8 @@
         "declarationDir": "./dist",
         "rootDir": "./src",
         "lib": [
-            "es2015"
+            "es2015",
+            "dom"
         ]
     },
     "include": [
