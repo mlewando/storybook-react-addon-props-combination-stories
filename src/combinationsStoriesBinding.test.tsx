@@ -1,4 +1,6 @@
+import * as React from "react";
 import { Story } from "@storybook/react";
+import * as ReactTestRenderer from "react-test-renderer";
 import { withCombinations } from "./combinationsStoriesBinding";
 
 interface TestComponentProps {
@@ -22,6 +24,7 @@ test("Render all stories", () => {
     kind: "test story"
   };
   const testComponent = jest.fn();
+  testComponent.mockReturnValue(<div>test</div>);
 
   const result = withCombinations<TestComponentProps, Story>(story, combinator)(
     {
@@ -43,6 +46,7 @@ test("Render all stories", () => {
   expect(story.add).toHaveBeenCalledWith("second: 8", expect.anything());
   story.add.mock.calls
     .map(args => args[1] as () => any)
-    .forEach(storyFn => storyFn());
-  expect(testComponent).toHaveBeenCalledWith({ name: "first", val: 2 });
+    .forEach(storyFn => ReactTestRenderer.create(storyFn()));
+  expect(testComponent).toHaveBeenCalledWith({ name: "first", val: 3 }, {});
+  expect(testComponent).toHaveBeenCalledWith({ name: "second", val: 8 }, {});
 });
