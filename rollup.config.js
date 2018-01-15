@@ -9,6 +9,7 @@ export default {
     format: "es",
     sourcemap: true
   },
+  external: ["react", "react-dom", "@storybook/react"],
 
   plugins: [
     nodeResolve({

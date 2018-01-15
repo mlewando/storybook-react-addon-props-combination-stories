@@ -1,5 +1,5 @@
 import { Story } from "@storybook/react";
-import * as React from "react";
+import React from "react";
 import { CombinationValues } from "./ocjectCombinations";
 
 export const withCombinations = <T, S extends Story>(
