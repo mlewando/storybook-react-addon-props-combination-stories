@@ -1,0 +1,44 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description":
+    "Example usage of Props Combinations addon for React Storybook",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+  },
+  "author": "Mateusz Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+  },
+  "homepage":
+    "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "dependencies": {
+    "@storybook/addon-actions": "^3.3.10",
+    "@storybook/react": "^3.3.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "storybook-react-addon-props-combination-stories": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/react": "^16.0.34",
+    "@types/storybook__addon-actions": "^3.0.1",
+    "@types/storybook__react": "^3.0.6",
+    "awesome-typescript-loader": "^3.4.1",
+    "jest": "^22.1.4",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "^16.2.0",
+    "ts-jest": "^22.0.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}

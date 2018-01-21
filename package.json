@@ -29,52 +29,6 @@
   },
   "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.9",
-    "@storybook/addon-storyshots": "^3.3.9",
-    "@storybook/react": "^3.3.9",
-    "@types/jest": "^22.0.1",
-    "@types/lodash": "^4.14.92",
-    "@types/lodash-es": "^4.17.0",
-    "@types/ramda": "^0.25.14",
-    "@types/react": "^16.0.34",
-    "@types/react-dom": "^16.0.3",
-    "@types/storybook__addon-actions": "^3.0.1",
-    "@types/storybook__react": "^3.0.6",
-    "awesome-typescript-loader": "^3.4.1",
-    "jest": "^22.0.4",
-    "lodash-es": "^4.17.4",
-    "prettier": "^1.9.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-test-renderer": "^16.2.0",
-    "rollup": "^0.53.3",
-    "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.9.0",
-    "rollup-plugin-uglify": "^2.0.1",
-    "ts-jest": "^22.0.1",
-    "tslint": "^5.8.0",
-    "tslint-config-prettier": "^1.6.0",
-    "typescript": "^2.6.2",
-    "uglify-es": "^3.3.7",
-    "webpack": "^3.10.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  },
-  "peerDependencies": {
-    "react": "*",
-    "@storybook/react": "*"
+    "lerna": "^2.8.0"
   }
 }

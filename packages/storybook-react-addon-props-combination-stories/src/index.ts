@@ -10,8 +10,7 @@ export interface ExtendedStory extends Story {
   ): this;
 }
 
-export function storiesOf(name: string, module: NodeModule): ExtendedStory {
-  const story: ExtendedStory = baseStoriesOf(name, module) as ExtendedStory;
-  story.withCombinations = withCombinations(story, combinations);
-  return story;
+export function addCombinations(story: Story): ExtendedStory {
+  (story as any).withCombinations = withCombinations(story, combinations);
+  return story as ExtendedStory;
 }

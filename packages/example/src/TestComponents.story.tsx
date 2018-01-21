@@ -1,8 +1,9 @@
+import { storiesOf } from "@storybook/react";
 import * as React from "react";
-import { storiesOf } from "../";
+import { addCombinations } from "storybook-react-addon-props-combination-stories";
 import { TestComponent, TestComponentProps } from "./TestComponents";
 
-storiesOf("Test component", module)
+addCombinations(storiesOf("Test component", module))
   .add("Some simple example", () => <TestComponent count={3} name="23" />)
   .withCombinations(
     {

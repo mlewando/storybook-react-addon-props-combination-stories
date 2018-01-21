@@ -1,0 +1,66 @@
+{
+  "name": "storybook-react-addon-props-combination-stories",
+  "version": "0.1.0",
+  "description":
+    "Props Combinations addon for React Storybook that will generate stories for each props combinations",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "jest",
+    "format": "prettier ./src/**/*.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "react-storybook",
+    "addon",
+    "plugin",
+    "props-combinations"
+  ],
+  "author": "Mateusz Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+  },
+  "homepage":
+    "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.3.9",
+    "@types/jest": "^22.0.1",
+    "@types/react": "^16.0.34",
+    "@types/storybook__react": "^3.0.6",
+    "jest": "^22.1.4",
+    "prettier": "^1.9.2",
+    "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "rollup": "^0.53.4",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.9.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "ts-jest": "^22.0.1",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.6.0",
+    "typescript": "^2.6.2",
+    "uglify-es": "^3.3.7"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  },
+  "peerDependencies": {
+    "react": "*",
+    "@storybook/react": "*"
+  }
+}
