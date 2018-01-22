@@ -1,8 +1,8 @@
 {
   "name": "example",
-  "version": "1.0.0",
-  "description":
-    "Example usage of Props Combinations addon for React Storybook",
+  "version": "0.1.0",
+  "description": "Example usage of Props Combinations addon for React Storybook",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -10,17 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+    "url": "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
   },
   "author": "Mateusz Lewandowski",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+    "url": "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
   },
-  "homepage":
-    "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
   "dependencies": {
     "@storybook/addon-actions": "^3.3.10",
     "@storybook/react": "^3.3.10",

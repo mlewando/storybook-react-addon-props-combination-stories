@@ -1,8 +1,7 @@
 {
   "name": "storybook-react-addon-props-combination-stories",
   "version": "0.1.0",
-  "description":
-    "Props Combinations addon for React Storybook that will generate stories for each props combinations",
+  "description": "Props Combinations addon for React Storybook that will generate stories for each props combinations",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "types": "./dist/index.d.ts",
@@ -13,8 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+    "url": "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
   },
   "keywords": [
     "react",
@@ -27,11 +25,9 @@
   "author": "Mateusz Lewandowski",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+    "url": "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
   },
-  "homepage":
-    "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
   "devDependencies": {
     "@storybook/react": "^3.3.9",
     "@types/jest": "^22.0.1",
@@ -57,10 +53,17 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "peerDependencies": {
-    "react": "*",
-    "@storybook/react": "*"
+    "@storybook/react": "*",
+    "react": "*"
   }
 }
