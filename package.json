@@ -1,26 +1,22 @@
 {
   "name": "storybook-react-addon-props-combination-stories",
-  "version": "0.1.0",
-  "description":
-    "Props Combinations addon for React Storybook that will generate stories for each props combinations",
+  "version": "0.2.0",
+  "description": "Props Combinations addon for React Storybook that will generate stories for each props combinations",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf ./dist && rollup --config",
     "test": "jest --coverage",
-    "lint":
-      "tslint ./src/**/*.ts ./src/**/*.tsx ./example/**/*.ts ./example/**/*.tsx",
+    "lint": "tslint ./src/**/*.ts ./src/**/*.tsx ./example/**/*.ts ./example/**/*.tsx",
     "lint-format": "prettier -l ./src/* ./example/**/* ./*.js ./*.json",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "prepublish":
-      "npm run test && npm run lint && npm run lint-format && npm run build",
+    "prepublish": "npm run test && npm run lint && npm run lint-format && npm run build",
     "preversion": "npm run prepublish"
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
+    "url": "git+https://github.com/mlewando/storybook-react-addon-props-combination-stories.git"
   },
   "keywords": [
     "react",
@@ -33,11 +29,9 @@
   "author": "Mateusz Lewandowski",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
+    "url": "https://github.com/mlewando/storybook-react-addon-props-combination-stories/issues"
   },
-  "homepage":
-    "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
+  "homepage": "https://github.com/mlewando/storybook-react-addon-props-combination-stories#readme",
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.10",
     "@storybook/react": "^3.3.9",
@@ -70,9 +64,18 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
     "mapCoverage": true,
-    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"]
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ]
   },
   "peerDependencies": {
     "@storybook/react": "*",
