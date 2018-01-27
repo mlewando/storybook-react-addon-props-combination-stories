@@ -7,12 +7,15 @@
   "module": "dist/index.es6.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rimraf ./dist && rollup --config",
     "test": "jest --coverage",
     "lint":
       "tslint ./src/**/*.ts ./src/**/*.tsx ./example/**/*.ts ./example/**/*.tsx",
     "lint-format": "prettier -l ./src/* ./example/**/* ./*.js ./*.json",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "prepublish":
+      "npm run test && npm run lint && npm run lint-format && npm run build",
+    "preversion": "npm run prepublish"
   },
   "repository": {
     "type": "git",
@@ -49,6 +52,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "rimraf": "^2.6.2",
     "rollup": "^0.53.4",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
