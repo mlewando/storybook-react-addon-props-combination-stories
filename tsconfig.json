@@ -9,6 +9,8 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
+    "noEmitOnError": true,
+    "strict": true,
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
     "rootDir": "./src",

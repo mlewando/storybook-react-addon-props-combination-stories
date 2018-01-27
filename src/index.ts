@@ -1,7 +1,7 @@
 import { storiesOf as baseStoriesOf, Story } from "@storybook/react";
 import React from "react";
 import { withCombinations } from "./combinationsStoriesBinding";
-import { combinations, CombinationValues } from "./ocjectCombinations";
+import { combinations, CombinationValues } from "./objectCombinations";
 
 export interface ExtendedStory extends Story {
   withCombinations<T>(

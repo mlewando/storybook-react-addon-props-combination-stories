@@ -1,4 +1,4 @@
-import { combinations } from "./ocjectCombinations";
+import { combinations } from "./objectCombinations";
 
 test("Calculate combinations", () => {
   const result = combinations({

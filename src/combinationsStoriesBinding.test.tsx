@@ -1,5 +1,5 @@
-import * as React from "react";
 import { Story } from "@storybook/react";
+import * as React from "react";
 import * as ReactTestRenderer from "react-test-renderer";
 import { withCombinations } from "./combinationsStoriesBinding";
 

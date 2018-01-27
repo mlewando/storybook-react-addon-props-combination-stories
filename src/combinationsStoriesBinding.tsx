@@ -1,6 +1,6 @@
 import { Story } from "@storybook/react";
 import React from "react";
-import { CombinationValues } from "./ocjectCombinations";
+import { CombinationValues } from "./objectCombinations";
 
 export const withCombinations = <T, S extends Story>(
   story: S,

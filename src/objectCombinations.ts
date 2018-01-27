@@ -16,4 +16,6 @@ const reduceKey = <T>(values: CombinationValues<T>) => (
 ): T[] => flatten(values[key].map(addKey(currentCombinations, key)));
 
 export const combinations = <T>(values: CombinationValues<T>): T[] =>
-  Object.keys(values).reduce(reduceKey(values), [{}] as T[]);
+  (Object.keys(values) as Array<keyof T>).reduce(reduceKey(values), [
+    {}
+  ] as T[]);
