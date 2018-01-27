@@ -1,6 +1,6 @@
 import { storiesOf } from "@storybook/react";
 import * as React from "react";
-import { addCombinations } from "storybook-react-addon-props-combination-stories";
+import { addCombinations } from "../src";
 import { TestComponent, TestComponentProps } from "./TestComponents";
 
 addCombinations(storiesOf("Test component", module))

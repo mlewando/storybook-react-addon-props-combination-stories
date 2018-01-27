@@ -58,6 +58,7 @@ typings/
 .rpt2_cache/
 .storybook/
 src/
+example/
 rollup.config.js
 tsconfig.json
 tslint.json

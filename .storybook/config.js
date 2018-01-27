@@ -1,7 +1,7 @@
 import { configure } from "@storybook/react";
 
 function loadStories() {
-  var req = require.context("../src/", true, /\.story\.tsx?$/);
+  var req = require.context("../example/", true, /\.story\.tsx?$/);
   req.keys().forEach(req);
 }
 
