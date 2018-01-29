@@ -1,9 +1,8 @@
 # Stories generator for [React Storybook](https://github.com/storybooks/react-storybook)
 
-[![codecov](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories/branch/master/graph/badge.svg)](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories)
-[![Build Status](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories.svg?branch=master)](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories)
 [![npm version](https://badge.fury.io/js/storybook-react-addon-props-combination-stories.svg)](https://badge.fury.io/js/storybook-react-addon-props-combination-stories)
 [![Build Status](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories.svg?branch=master)](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories)
+[![codecov](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories/branch/master/graph/badge.svg)](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories)
 [![Dependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories)
 [![devDependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories/dev-status.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies)
 [![downloads][downloads-image]][downloads-url]
