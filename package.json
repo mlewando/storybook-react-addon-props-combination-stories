@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf ./dist && rollup --config",
-    "test": "jest --coverage",
+    "test": "jest",
     "lint": "tslint ./src/**/*.ts ./src/**/*.tsx ./example/**/*.ts ./example/**/*.tsx",
     "lint-format": "prettier -l ./src/* ./example/**/* ./*.js ./*.json",
     "storybook": "start-storybook -p 9001 -c .storybook",
