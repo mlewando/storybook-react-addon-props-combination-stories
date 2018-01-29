@@ -11,7 +11,7 @@
 [downloads-image]: https://img.shields.io/npm/dm/get-package-readme.svg
 [downloads-url]: https://npmjs.org/package/get-package-readme
 
-[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
+[![NPM](https://nodei.co/npm/storybook-react-addon-props-combination-stories.png)](https://npmjs.org/package/storybook-react-addon-props-combination-stories)
 
 > Props Combinations addon for React Storybook that will generate stories for each props combinations
 
