@@ -12,7 +12,8 @@
     "lint-format": "prettier -l ./src/* ./example/**/* ./*.js ./*.json",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "prepublish": "npm run test && npm run lint && npm run lint-format && npm run build",
-    "preversion": "npm run prepublish"
+    "preversion": "npm run prepublish",
+    "upload-coveradge": "codecov"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "@types/storybook__addon-actions": "^3.0.1",
     "@types/storybook__react": "^3.0.6",
     "awesome-typescript-loader": "^3.4.1",
+    "codecov": "^3.0.0",
     "jest": "^22.1.4",
     "prettier": "^1.9.2",
     "react": "^16.2.0",

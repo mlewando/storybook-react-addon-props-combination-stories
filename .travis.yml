@@ -16,4 +16,4 @@ script:
   - 'npm run lint-format'
   - 'npm run build'
 after_success:
-  - codecov
+  - 'npm run upload-coveradge'
