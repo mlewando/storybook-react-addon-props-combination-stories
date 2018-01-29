@@ -29,9 +29,6 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
-
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -58,5 +55,12 @@ typings/
 .env
 
 .vscode/
-dist/
 .rpt2_cache/
+.storybook/
+src/
+example/
+rollup.config.js
+tsconfig.json
+tslint.json
+.prettierignore
+.travis.yml
