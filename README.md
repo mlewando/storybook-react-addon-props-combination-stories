@@ -5,10 +5,6 @@
 [![codecov](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories/branch/master/graph/badge.svg)](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories)
 [![Dependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories)
 [![devDependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories/dev-status.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies)
-[![downloads][downloads-image]][downloads-url]
-
-[downloads-image]: https://img.shields.io/npm/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies.svg
-[downloads-url]: https://npmjs.org/package/storybook-react-addon-props-combination-stories
 
 [![NPM](https://nodei.co/npm/storybook-react-addon-props-combination-stories.png)](https://npmjs.org/package/storybook-react-addon-props-combination-stories)
 
