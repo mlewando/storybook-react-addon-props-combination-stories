@@ -63,3 +63,4 @@ rollup.config.js
 tsconfig.json
 tslint.json
 .prettierignore
+.travis.yml
