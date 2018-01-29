@@ -7,8 +7,8 @@
 [![devDependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories/dev-status.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies)
 [![downloads][downloads-image]][downloads-url]
 
-[downloads-image]: https://img.shields.io/npm/dm/get-package-readme.svg
-[downloads-url]: https://npmjs.org/package/get-package-readme
+[downloads-image]: https://img.shields.io/npm/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies.svg
+[downloads-url]: https://npmjs.org/package/storybook-react-addon-props-combination-stories
 
 [![NPM](https://nodei.co/npm/storybook-react-addon-props-combination-stories.png)](https://npmjs.org/package/storybook-react-addon-props-combination-stories)
 
