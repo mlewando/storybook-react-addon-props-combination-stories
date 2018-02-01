@@ -1,12 +1,28 @@
 # Stories generator for [React Storybook](https://github.com/storybooks/react-storybook)
 
-[![npm version](https://badge.fury.io/js/storybook-react-addon-props-combination-stories.svg)](https://badge.fury.io/js/storybook-react-addon-props-combination-stories)
-[![Build Status](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories.svg?branch=master)](https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories)
-[![codecov](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories/branch/master/graph/badge.svg)](https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories)
-[![Dependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories)
-[![devDependency Status](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories/dev-status.svg)](https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories#info=devDependencies)
+[![npm][npm-version-svg]][npm]
+[![npm][npm-downloads-svg]][npm]
+[![Build Status][build-svg]][build]
+[![codecov][coveradge-svg]][coveradge]
+[![Dependency Status][deps-svg]][deps]
+[![devDependency Status][dev-deps-svg]][dev-deps]
 
-[![NPM](https://nodei.co/npm/storybook-react-addon-props-combination-stories.png)](https://npmjs.org/package/storybook-react-addon-props-combination-stories)
+[![NPM][npm-stats-png]][npm]
+
+[license-svg]: https://img.shields.io/github/license/mlewando/storybook-react-addon-props-combination-stories.svg
+[license]: https://github.com/mlewando/storybook-react-addon-props-combination-stories/blob/master/LICENSE
+[build-svg]: https://img.shields.io/travis/mlewando/storybook-react-addon-props-combination-stories.svg
+[build]: https://travis-ci.org/mlewando/storybook-react-addon-props-combination-stories
+[npm-version-svg]: https://img.shields.io/npm/v/storybook-react-addon-props-combination-stories.svg
+[npm]: https://badge.fury.io/js/storybook-react-addon-props-combination-stories
+[coveradge-svg]: https://img.shields.io/codecov/c/github/mlewando/storybook-react-addon-props-combination-stories.svg
+[coveradge]: https://codecov.io/gh/mlewando/storybook-react-addon-props-combination-stories
+[deps-svg]: https://img.shields.io/david/mlewando/storybook-react-addon-props-combination-stories.svg
+[deps]: https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories
+[dev-deps-svg]: https://img.shields.io/david/dev/mlewando/storybook-react-addon-props-combination-stories.svg
+[dev-deps]: https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories?type=dev
+[npm-downloads-svg]: https://img.shields.io/npm/dm/storybook-react-addon-props-combination-stories.svg
+[npm-stats-png]: https://nodei.co/npm/storybook-react-addon-props-combination-stories.png
 
 > Props Combinations addon for React Storybook that generates stories for each props combination
 
