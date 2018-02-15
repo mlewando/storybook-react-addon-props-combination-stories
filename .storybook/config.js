@@ -4,6 +4,8 @@ import { setOptions } from "@storybook/addon-options";
 setOptions({
   name: "Props combinations",
   sortStoriesByKind: true,
+  url:
+    "https://mlewando.github.io/storybook-react-addon-props-combination-stories/",
   hierarchySeparator: /\//
 });
 

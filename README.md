@@ -10,6 +10,8 @@
 
 > Props Combinations addon for React Storybook that will generate stories for each props combinations
 
+You can check out the [demo here](https://mlewando.github.io/storybook-react-addon-props-combination-stories/).
+
 Given possible values for each prop, renders your component with all combinations of prop values.
 Useful for finding edge cases or just seeing all component states.
 For each props combination it will create a new story in your stories.
