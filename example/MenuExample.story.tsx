@@ -41,7 +41,7 @@ interface BooleanProps {
   adminRights: boolean;
   [key: string]: boolean;
 }
-addCombinations(storiesOf("Menu example", module)).withCombinations(
+addCombinations(storiesOf("Example/Menu", module)).withCombinations(
   {
     adminRights: [true, false],
     navigate: [action("Navigation")],

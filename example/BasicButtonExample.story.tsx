@@ -14,7 +14,7 @@ function TestButton(props: {
   );
 }
 
-addCombinations(storiesOf("Basic button example", module)).withCombinations(
+addCombinations(storiesOf("Example/Basic button", module)).withCombinations(
   {
     enabled: [true, false],
     important: [true, false],
