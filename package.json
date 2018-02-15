@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-addon-props-combination-stories",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Props Combinations addon for React Storybook that will generate stories for each props combinations",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
