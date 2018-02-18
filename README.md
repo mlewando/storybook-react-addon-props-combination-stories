@@ -4,6 +4,7 @@
 [![npm][npm-downloads-svg]][npm]
 [![Build Status][build-svg]][build]
 [![codecov][coveradge-svg]][coveradge]
+[![Greenkeeper badge][greenkeeper-svg]][greenkeeper]
 [![Dependency Status][deps-svg]][deps]
 [![devDependency Status][dev-deps-svg]][dev-deps]
 
@@ -23,6 +24,8 @@
 [dev-deps]: https://david-dm.org/mlewando/storybook-react-addon-props-combination-stories?type=dev
 [npm-downloads-svg]: https://img.shields.io/npm/dm/storybook-react-addon-props-combination-stories.svg
 [npm-stats-png]: https://nodei.co/npm/storybook-react-addon-props-combination-stories.png
+[greenkeeper]: https://greenkeeper.io/
+[greenkeeper-svg]: https://badges.greenkeeper.io/mlewando/storybook-react-addon-props-combination-stories.svg
 
 > Props Combinations addon for React Storybook that generates stories for each props combination
 

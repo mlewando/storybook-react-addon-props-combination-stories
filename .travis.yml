@@ -1,19 +1,25 @@
 language: node_js
 node_js:
-  - '8'
-  - '7'
+- '8'
+- '7'
 cache:
   directories:
-    - $HOME/.npm
-    - node_modules
+  - "$HOME/.npm"
+  - node_modules
 before_install:
-  - 'npm install --global npm'
+- npm install --global npm
+- npm install -g greenkeeper-lockfile@1
 before_script:
-  - 'npm prune'
+- npm prune
+- greenkeeper-lockfile-update
 script:
-  - 'npm run test -- --coverage'
-  - 'npm run lint'
-  - 'npm run lint-format'
-  - 'npm run build'
+- npm run test -- --coverage
+- npm run lint
+- npm run lint-format
+- npm run build
+after_script: greenkeeper-lockfile-upload
 after_success:
-  - 'npm run upload-coveradge'
+- npm run upload-coveradge
+env:
+  global:
+    secure: sTgLykEWNSL/tPlQLdOogi8b9zHcNC/c/dZCGXjQ+rWtemS3oGg/hI8mvg2BsjPW86HB+xf6L8ekjKWGsF+8WAtUbj/8lL8IlMPlFo6FSEnqEdnqypXZn6z7pZ6Uxa6YHfZMc7BSBl4YTXAIKp5/jjba18W9+MS5kIgB4Nn6ov+h6kZoMexv/VBaW6dDVTloCjg6dpk1dV/MsLhnizvwSVCjm9KmVmEtxS46FYvIqQJOyLKlhOoXMSgY5LlYxj13FJBYlwziCsQ+47+LZj9kLevj69JRmkqsX1qju6BduNiaiAxThSiBEmKsGZ+PrEXNZRGCiMfi5pNTGrOVFb5o8JsaOLBrqymbiztWWdLLC3bunY4cbAZJYhsNpXHzKDCVCUxSmjzQ/5Ina2P2Bl50KlMvmVv4TVUECLdKj5bx85adkUBnurxewNwtzKs2xir+x+CYkFFoxEvwg0sMPDxMzVMbjZ8obGUq6uX25UQhDOm1gLrGqodjGVlnRRuiMQRK4gKTUIRsOJ9en2XcMt4l4OYM9SgMSP+wfJhXZPYg3Dpn7kAVPrUCR7Dqo92eaBug1EV3izQxjiIUtO4XjkLaO43NZhqGhZv8kh5v8QPLuzppUb4NF1gL4OtEJCVf+TYiuuKPZf/WsbOH2BD4R7dFT7+rLnR2tSZ+s6eRf26X1X4=
