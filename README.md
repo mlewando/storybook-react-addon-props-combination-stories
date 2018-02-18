@@ -1,5 +1,7 @@
 # Stories generator for [React Storybook](https://github.com/storybooks/react-storybook)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mlewando/storybook-react-addon-props-combination-stories.svg)](https://greenkeeper.io/)
+
 [![npm][npm-version-svg]][npm]
 [![npm][npm-downloads-svg]][npm]
 [![Build Status][build-svg]][build]
