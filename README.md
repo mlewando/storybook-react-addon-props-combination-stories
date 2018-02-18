@@ -4,7 +4,7 @@
 [![npm][npm-downloads-svg]][npm]
 [![Build Status][build-svg]][build]
 [![codecov][coveradge-svg]][coveradge]
-[![Greenkeeper badge][greenkeeper-svg][greenkeeper]
+[![Greenkeeper badge][greenkeeper-svg]][greenkeeper]
 [![Dependency Status][deps-svg]][deps]
 [![devDependency Status][dev-deps-svg]][dev-deps]
 
