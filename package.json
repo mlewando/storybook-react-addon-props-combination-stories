@@ -51,7 +51,7 @@
     "react": "^16.6.2",
     "react-dom": "^16.6.2",
     "react-syntax-highlighter": "^7.0.0",
-    "react-test-renderer": "^16.2.0",
+    "react-test-renderer": "^16.6.2",
     "rimraf": "^2.6.2",
     "rollup": "^0.60.0",
     "rollup-plugin-commonjs": "^9.0.0",
