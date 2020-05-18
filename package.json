@@ -45,7 +45,7 @@
     "@types/storybook__addon-actions": "^3.0.2",
     "@types/storybook__react": "^3.0.7",
     "awesome-typescript-loader": "^3.4.1",
-    "codecov": "^3.0.0",
+    "codecov": "^3.7.0",
     "jest": "^22.3.0",
     "prettier": "^1.9.2",
     "react": "^16.2.0",
